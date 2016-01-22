@@ -1,0 +1,30 @@
+.img-carousel{
+    border-top: 1px solid #fff;
+    width: 980px;
+    height: 150px;
+    background-color: #000000;
+}
+
+.img-carousel div{
+    display: inline-block;
+    float: left;
+}
+
+.img-carousel div .fa{
+    padding-top: 40px;
+    margin-top: 10px;
+    height: 100px;
+    width: 60px;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.img-carousel .fa:hover{
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.img-carousel .arrow_right{
+    float: right;
+}

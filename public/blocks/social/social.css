@@ -1,0 +1,35 @@
+h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.social{
+    width: 150px;
+    height: 390px;
+}
+
+.list_weare{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_weare li{
+    display: inline-block;
+    text-transform: capitalize;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.list_weare li{
+    height: 35px;
+}
+
+.list_weare li:hover{
+    background-color: #efefef;
+}

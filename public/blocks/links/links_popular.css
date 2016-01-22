@@ -1,0 +1,20 @@
+.links.links_popular .src1{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.links.links_popular .src1:hover{
+    cursor: default;
+}
+
+.links.links_popular .src2{
+    font-size: 16px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 5px;
+}
+
+.links.links_popular .src2:hover{
+    color: #a9a9a9;
+}

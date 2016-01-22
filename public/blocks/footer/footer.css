@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+    height: 620px;
+    background-color: #efefef;
+}
+
+.footer .viewed-goods{
+    width: 980px;
+    height: 110px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.footer .viewed-goods img{
+    margin: 5px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer .viewed-goods a{
+    text-decoration: none;
+}
+
+.footer .viewed-goods img:hover{
+    box-shadow: inset 0 0 1px #2f4f4f;
+}

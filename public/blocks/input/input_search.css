@@ -1,0 +1,13 @@
+.input.input_search{
+    width: 450px;
+    height: 34px;
+    font-size:16px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-style: italic;
+}
+
+.input.input_search:focus{
+    font-style: normal;
+    box-shadow: 0px 0px 0px 5px #4CD3FF;
+}

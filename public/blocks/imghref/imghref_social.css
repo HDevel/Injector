@@ -1,0 +1,23 @@
+.imghref.imghref_social{
+    height: 35px;
+    padding: 2px 0 2px 5px;
+    text-align: left;
+    display: block;
+    color: #696969;
+    text-decoration: none;
+}
+
+.imghref.imghref_social img{
+    height: 30px;
+}
+
+.imghref.imghref_social span{
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+    vertical-align: top;
+}
+
+.imghref.imghref_social:hover > span{
+    text-decoration: underline;
+}

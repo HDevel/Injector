@@ -1,0 +1,28 @@
+.links.links_login{
+    margin: 0 auto;
+    padding: 8px 0 5px 0;
+    font-size: 14px;
+}
+
+.links.links_login a{
+    text-decoration: none;
+    cursor: default;
+}
+
+.links.links_login .src1{
+    text-transform: capitalize;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.links.links_login .src1:hover{
+    text-decoration: underline;
+}
+
+.links.links_login .src2{
+    padding: 0 5px;
+}
+
+.links.links_login .src3{
+    text-transform: uppercase;
+}

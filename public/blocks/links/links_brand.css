@@ -1,0 +1,20 @@
+.links.links_brand{
+    margin-right: 5px;
+    line-height: 25px;
+    width: 775px;
+    display: inline-block;
+}
+
+.links.links_brand .src1{
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.links.links_brand .src2{
+    text-transform: capitalize;
+    margin: 0;
+    float: right;
+}

@@ -1,0 +1,12 @@
+.input.input_brand-search{
+    width: 150px;
+    padding: 0 0 0 5px;
+    height: 28px;
+    background-color: #a9a9a9;
+    color: #fff;
+    border: none;
+}
+
+.input.input_brand-search::-webkit-input-placeholder{
+    color: #fff;
+}

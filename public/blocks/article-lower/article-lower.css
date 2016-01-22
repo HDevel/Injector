@@ -1,0 +1,7 @@
+.article-lower{
+    background-color: #000;
+    width: 980px;
+    margin: 10px auto 0 auto;
+    white-space: nowrap;
+    box-shadow: inset 0px 1px 5px #F8F8FF;
+}

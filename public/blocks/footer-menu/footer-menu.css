@@ -1,0 +1,34 @@
+.footer-menu{
+    height: 420px;
+    width: 150px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footer-menu .links{
+    list-style-type: none;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu .links li{
+    padding: 5px 0;
+}
+
+.footer-menu .links li a,
+.footer-menu .links li a:active{
+    color: #696969;
+    text-decoration: none;
+}
+
+.footer-menu .links li a:hover{
+    text-decoration: underline;
+}

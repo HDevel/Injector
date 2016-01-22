@@ -1,0 +1,11 @@
+.content-list{
+    width: 980px;
+    height: 970px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.list_container .content{
+    border: none;
+}
+

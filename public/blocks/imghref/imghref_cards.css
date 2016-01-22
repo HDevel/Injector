@@ -1,0 +1,6 @@
+.imghref.imghref_cards,
+.imghref.imghref_cards img {
+    width: 260px;
+    height: 150px;
+    vertical-align: middle;
+}

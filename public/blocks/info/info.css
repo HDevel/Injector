@@ -1,0 +1,25 @@
+.info{
+    border-top: 2px solid #fff;
+    width: 980px;
+    height: 420px;
+    margin: 15px auto;
+}
+
+.info .info-menu,
+.info .email-zone,
+.info .social{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.info .info-menu{
+    padding: 0 20px;
+    width: 520px;
+    height: 390px;
+}
+
+.info .email-zone{
+    height: 390px;
+    width: 260px;
+    padding: 10px 0;
+}

@@ -1,0 +1,22 @@
+.login-article{
+    height: 750px;
+    width: 100%;
+    background-color: #303030;
+}
+
+.login-article .article-block{
+    background-color: #000;
+    height: 750px;
+    width: 835px;
+    margin: 0 auto;
+    padding: 45px 75px 0 75px;
+}
+
+.login-article .text{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}

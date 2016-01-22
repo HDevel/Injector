@@ -1,0 +1,13 @@
+.button.button_show-offers{
+    font-size: 20px;
+    height: auto;
+    text-transform: uppercase;
+    border: 1px dashed #fff;
+    background-color: #c21d35;
+    padding: 10px;
+}
+
+.button.button_show-offers:hover{
+    background-color: darkred;
+}
+

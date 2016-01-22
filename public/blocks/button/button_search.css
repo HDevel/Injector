@@ -1,0 +1,21 @@
+.button.button_search{
+    background-color: #78AF2D;
+    text-transform: uppercase;
+    width: 118px;
+    font: 16px/22px Arial,Helvetica,sans-serif,serif ;
+    font-weight: bold;
+    vertical-align: top;
+    margin-left: -123px;
+    margin-top: 1px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.button.button_search:hover{
+    background-color: #71dd00;
+}
+
+.button.button_search .fa-search{
+    font-size: 20px;
+    margin-right: 5px;
+}
+

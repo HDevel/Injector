@@ -1,0 +1,45 @@
+.content{
+    float: left;
+    border-bottom: 1px solid #a9a9a9;
+    width: 195px;
+    height: 300px;
+    padding: 15px 20px 0 20px;
+}
+
+.content:first-child{
+    margin-left: 20px;
+}
+
+.content .title,
+.content .price{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.content .title{
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.content .comment{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+}
+
+.content .comment:active{
+    color: #000;
+}
+
+.content .title:hover{
+    text-decoration: underline;
+}
+
+.content .price{
+    margin-top: 5px;
+    padding: 0;
+    text-transform: uppercase;
+}

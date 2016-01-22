@@ -1,0 +1,22 @@
+.button.button_basket{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 185px;
+    text-align: left;
+}
+
+.button.button_basket .fa{
+    margin-right: 5px;
+}
+
+.button.button_basket span{
+    float: right;
+}
+
+.button.button_basket:hover{
+    background-color: #4CD3FF;
+}

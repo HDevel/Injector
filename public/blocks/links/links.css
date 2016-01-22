@@ -1,0 +1,12 @@
+.links{
+    width: 980px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.links a{
+    color: #fff;
+    display: inline;
+}
