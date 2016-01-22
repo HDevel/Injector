@@ -5,26 +5,27 @@ var injector = {
     params: {
         baseUrl: 'blocks/',
         techs: ['html', 'css', 'js'],
+        fileLoad: 0,
         style_id: 'inject_style',
         style_done: {},
         style: document.createElement('style')
     },
     init: function () {
         this.params.style.setAttribute('id', this.params.style_id);
-
+        document.getElementsByTagName('head')[0].appendChild(this.params.style);
+        document.body.style.display = 'none';
         this.buildInjector();
     },
     buildInjector: function () {
         var self = this;
         var injectors = this.seatchInjectors();
-        if(injectors.length == 0){
-            document.getElementsByTagName('head')[0].appendChild(this.params.style);
-        }
         injectors.forEach(function (node) {
             node.techs.forEach(function (tech) {
                 switch (tech.split('.').pop()){
                     case 'html':
+                        self.params.fileLoad++;
                         self.loadFile(node.url, tech, function (string) {
+                            self.params.fileLoad--;
                             var content = string.match(/{{[^}]+}}/g);
                             if(content){
                                 content.forEach(function(v){
@@ -33,7 +34,7 @@ var injector = {
                                 });
                             }
                             var div = document.createElement('div');
-                            div.innerHTML = string;
+                            div.innerHTML = string.trim();
                             var newNode = div.firstChild;
                             var currentClass = newNode.getAttribute('class').split(' ');
                             if(node.mods){
@@ -56,6 +57,9 @@ var injector = {
                 }
             })
         });
+        if(self.params.fileLoad == 0){
+            document.body.style.display = '';
+        }
     },
     seatchInjectors: function () {
         var self = this;
