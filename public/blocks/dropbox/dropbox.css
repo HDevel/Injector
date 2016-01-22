@@ -1,0 +1,52 @@
+.dropbox{
+    margin: 0 auto;
+    left: 0;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    width: 988px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #a9a9a9;
+    -webkit-transition: opacity 600ms, z-index 0ms 600ms;
+    transition: opacity 600ms, z-index 0ms 600ms;
+}
+
+.dropbox .del{
+    width: 988px;
+    height: 3px;
+    background-color: #303030;
+    padding: 0;
+    margin: 0;
+
+}
+
+.dropbox ul{
+    padding: 10px 0;
+    width: 264px;
+    background-color: #dedede;
+    list-style: none;
+}
+
+.dropbox ul li{
+    width: 211px;
+    text-transform: capitalize;
+    padding: 5px 25px;
+    line-height: 20px;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.dropbox ul li:hover{
+    background-color: #fff;
+    color: #1C68AC;
+}
+
+.dropbox .delimeter{
+    width: 261px;
+    height: 1px;
+    background-color: #666666;
+}
