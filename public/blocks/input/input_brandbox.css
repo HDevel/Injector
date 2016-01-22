@@ -1,0 +1,9 @@
+.input.input_brandbox{
+    height: 25px;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 229px;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: left;
+}

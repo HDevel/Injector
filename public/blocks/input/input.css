@@ -1,9 +1,6 @@
 .input{
-    outline: none;
-    -webkit-appearance: none;
-    font-style: italic;
-    border: 1px solid grey;
-    padding: 0px 120px 0px 5px;
-    font-style: normal;
     font-family: Arial,Helvetica,sans-serif,serif;
+    outline: none;
+    border: 0;
+    -webkit-appearance: none;
 }

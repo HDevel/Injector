@@ -15,7 +15,7 @@ header{
 .header .ads,
 .header .header-menu,
 .header .mid-menu,
-.header .searchbox,
+.header .searchbox_header,
 .header .button_basket,
 .header .imghref_logo{
     position: absolute;
@@ -37,7 +37,7 @@ header{
     right: 0;
 }
 
-.header .searchbox{
+.header .searchbox_header{
     top: 55px;
     left: 190px;
 }
