@@ -1,0 +1,10 @@
+{
+  "name": "node-js-sample",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "node-static": "^0.7.7"
+  }
+}
