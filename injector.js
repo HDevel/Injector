@@ -97,7 +97,9 @@ injector.parseInject = function (pageName) {
         clearTimeout(writeTimeout);
         writeTimeout = setTimeout(function () {
             console.log('--- New Update ---');
-            injector.writePage(pageName, pages[pageName]);
+            for(page in pages){
+                injector.writePage(page, pages[page]);
+            }
             injector.writePage(config.styleName, style);
         }, 10);
         return
