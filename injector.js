@@ -108,7 +108,7 @@ injector.parseInject = function (pageName) {
         string: injects[0],
         attrs: {}
     };
-    inject.string.replace(/ +/g, ' ').match(/[a-zA-Z]+=('[^']+'|"[^"]+")/g).forEach(function (attr) {
+    inject.string.replace(/ +/g, ' ').match(/[a-zA-Z0-9]+=('[^']+'|"[^"]+")/g).forEach(function (attr) {
         var attrName = attr.trim().match(/^.+=/g).pop().slice(0, -1).toLowerCase();
         var attrValue = attr.match(/".+"|'.+'/g).pop().slice(1, -1);
 
