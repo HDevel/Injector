@@ -525,6 +525,10 @@ header{
     display: inline;
 }
 
+.links.links_popular {
+    font-family: 'Roboto Condensed', ​sans-serif;
+}
+
 .links.links_popular .src1{
     text-decoration: none;
     text-transform: capitalize;
