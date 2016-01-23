@@ -1,8 +1,0 @@
-.imghref.imghref_box img{
-     width: 323px;
-     height: 150px;
- }
-
-.imghref.imghref_box img:hover{
-    box-shadow: none;
-}

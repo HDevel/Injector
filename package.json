@@ -4,6 +4,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "fs": "0.0.2",
     "http": "0.0.0",
     "node-static": "^0.7.7"
   }

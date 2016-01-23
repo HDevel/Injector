@@ -1,14 +1,484 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 <head style="padding:0; margin:0">
     <title>Site Template</title>
-    <script src="common/jquery-2.1.3.min.js"></script>
-    <script src="common/injector.js"></script>
-    <link rel="stylesheet" href="common/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="padding:0; margin:0">
-   <inject inject="header" html css></inject>
-   <inject inject="login-article" html css></inject>
-   <inject inject="footer" html css></inject>
+    <header class="header">
+    <div class="header_content">
+        <div class="header-menu">
+    <ul class="menu_header">
+        <li><a href="login.html">Войти</a></li>
+        <li><a href="#"><i class="fa fa-user"></i>Мой аккаунт</a></li>
+        <li><a href="#"><i class="fa fa-question-circle"></i>Помощь<i class="fa fa-sort-desc"></i></a></li>
+        <li><a href="#"><i class="fa fa-heart"></i>Wishlist</a></li>
+        <li>Страна<i class="fa fa-sort-desc"></i></li>
+    </ul>
+</div>
+
+        <div class="searchbox searchbox_header">
+    <input class="input input_search input_header" placeholder="Поиск товара или бренда">
+
+   <button class="button button_search" type="button" value="#"><i class="fa fa-search"></i>найти</button>
+
+</div>
+
+        <button class="button button_basket" type="button" value="#"><i class="fa fa-shopping-basket"></i><span>2 товара</span></button>
+
+        <a class="imghref imghref_logo" href="index.html">
+    <img src="images/logo.png">
+    <span></span>
+</a>
+
+    </div>
+    <div class="mid-menu">
+    <ul class="menu_mid">
+        <li>Покупки по категориям
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Бренды
+            <div class="brandbox">
+    <div class="delim"></div>
+    <div class="searchbox searchbox_brandbox">
+    <input class="input input_brandbox" placeholder="поиск по брендам">
+
+   <button class="button button_brandbox" type="button" value="#"><i class="fa fa-search"></i></button>
+
+</div>
+
+    <ol>
+        <span>популярные бренды</span>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+    </ol>
+    <ol>
+        <span>все бренды</span>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+        <li><a href="">Shimano</a></li>
+    </ol>
+</div>
+
+        </li>
+        <li>Мтб
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Шоссе
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Город
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Триатлон
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Бмх
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Бег
+            <div class="dropbox">
+    <div class="del"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+        <div class="delimeter"></div>
+        <ul>
+            <li>Велосипеды</li>
+            <li>Велосипеды</li>
+        </ul>
+</div>
+
+        </li>
+        <li>Распродажа</li>
+    </ul>
+</div>
+
+    <div class="ads">
+        <a class="imghref imghref_ads" href="#">
+    <img src="images/top_ad1.png">
+    <span></span>
+</a>
+
+        <a class="imghref imghref_ads" href="#">
+    <img src="images/top_ad2.png">
+    <span></span>
+</a>
+
+    </div>
+</header>
+
+    <article class="login-article">
+   <div class="links links_login">
+    <a class="src1" href=""></a>
+    <a class="src2" href=""></a>
+    <a class="src3" href=""></a>
+</div>
+
+    <div class="article-block">
+        <div class="text">войти</div>
+       <div class="login-pw">
+    <div class="login-head">постоянные покупатели</div>
+    <div class="login-body">
+        <div class="email">email</div>
+        <input class="input input_login" placeholder="">
+
+        <div class="pw">пароль</div>
+        <input class="input input_login" placeholder="">
+
+       <button class="button button_login" type="button" value="#"><i class="fa "></i>войти</button>
+
+        <div class="href"><a href="#">Забыли пароль?</a></div>
+    </div>
+</div>
+
+       <div class="signup">
+    <div class="signup-head">новые покупатели</div>
+    <div class="signup-body">
+        <div class="signup-text">Создать аккаунт очень просто.
+        Заполните форму регистрации на следующей странице и воспользуйтесь преимуществами наличия учетной записи.</div>
+       <button class="button button_signup" type="button" value="#"><i class="fa "></i>создать аккаунт</button>
+
+        <div class="signup-info">
+            <p class="head1">Зачем Вам нужен аккаунт (учетная запись)?</p>
+            <p class="head2">Вы сможете:</p>
+            <p class="bold">Просто и быстро оформлять заказы</p>
+            <p>Сохранить информацию о доставке и платеже</p>
+
+            <p class="bold">Редактировать заказы</p>
+            <p>Отслеживать обработку заказов и смотреть их историю</p>
+
+            <p class="bold">Оценить товары и оставить свои отзывы</p>
+            <p>Поделиться своим мнением и рекомендациями в группе CRC</p>
+
+            <p class="bold">Узнавать о последних новостях и предложениях</p>
+            <p>Получить доступ к скидкам, акциям, новым товарам и многое другое!</p>
+        </div>
+    </div>
+</div>
+
+    </div>
+</article>
+
+    <footer class="footer">
+   <div class="links links_viewed">
+    <a class="src1" href=""></a>
+    <a class="src2" href=""></a>
+    <a class="src3" href=""></a>
+</div>
+
+
+    <div class="viewed-goods">
+       <a class="imghref imghref_viewed-goods" href="">
+    <img src="images/product1.jpg">
+    <span></span>
+</a>
+
+       <a class="imghref imghref_viewed-goods" href="">
+    <img src="images/product1.jpg">
+    <span></span>
+</a>
+
+       <a class="imghref imghref_viewed-goods" href="">
+    <img src="images/product1.jpg">
+    <span></span>
+</a>
+
+    </div>
+
+   <div class="info">
+   <div class="social">
+    <h5>Мы в</h5>
+    <ul class="list_weare">
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>the hub</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>facebook</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>vk</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>twitter</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>google+</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>instagram</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>youtube</span>
+</a>
+
+            </li>
+
+        <li><a class="imghref imghref_social" href="#">
+    <img src="images/footer_hub.jpg">
+    <span>pinterest</span>
+</a>
+
+            </li>
+
+    </ul>
+</div>
+
+   <div class="info-menu">
+      <div class="footer-menu">
+    <h4>Категории</h4>
+        <ul class="links">
+            <li><a href="">Велосипеды</a></li>
+            <li><a href="">Рамы и вилки</a></li>
+            <li><a href="">Комплектующие</a></li>
+            <li><a href="">Колёса и покрышки</a></li>
+            <li><a href="">Одежда</a></li>
+            <li><a href="">Защита</a></li>
+            <li><a href="">Питание и тренировка</a></li>
+            <li><a href="">Аксессуары</a></li>
+            <li><a href="">Обувь</a></li>
+            <li><a href="">Распродажа</a></li>
+        </ul>
+</div>
+
+      <div class="footer-menu">
+    <h4>Категории</h4>
+        <ul class="links">
+            <li><a href="">Велосипеды</a></li>
+            <li><a href="">Рамы и вилки</a></li>
+            <li><a href="">Комплектующие</a></li>
+            <li><a href="">Колёса и покрышки</a></li>
+            <li><a href="">Одежда</a></li>
+            <li><a href="">Защита</a></li>
+            <li><a href="">Питание и тренировка</a></li>
+            <li><a href="">Аксессуары</a></li>
+            <li><a href="">Обувь</a></li>
+            <li><a href="">Распродажа</a></li>
+        </ul>
+</div>
+
+      <div class="footer-menu">
+    <h4>Категории</h4>
+        <ul class="links">
+            <li><a href="">Велосипеды</a></li>
+            <li><a href="">Рамы и вилки</a></li>
+            <li><a href="">Комплектующие</a></li>
+            <li><a href="">Колёса и покрышки</a></li>
+            <li><a href="">Одежда</a></li>
+            <li><a href="">Защита</a></li>
+            <li><a href="">Питание и тренировка</a></li>
+            <li><a href="">Аксессуары</a></li>
+            <li><a href="">Обувь</a></li>
+            <li><a href="">Распродажа</a></li>
+        </ul>
+</div>
+
+   </div>
+   <div class="email-zone">
+      <div class="links links_description">
+    <a class="src1" href=""></a>
+    <a class="src2" href=""></a>
+    <a class="src3" href=""></a>
+</div>
+
+      <div class="text">
+    <i class="fa fa-check-circle"></i>offers
+    <i class="fa fa-check-circle"></i>news
+    <i class="fa fa-check-circle"></i>reviews
+</div>
+
+      <div class="email-field">
+    <input class="input input_mail" placeholder="">
+
+   <button class="button button_mail" type="button" value="#"><i class="fa "></i>Подписаться</button>
+
+</div>
+
+      <a class="imghref imghref_cards" href="">
+    <img src="images/cards.png">
+    <span></span>
+</a>
+
+   </div>
+</div>
+
+   <div class="about">
+    <ul class="about_list">
+        <li>© Chain Reaction Cycles</li>
+        <li><a href="#">Правила и условия</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">Карта сайта</a></li>
+        <li><a href="#">Мобильная версия сайта</a></li>
+    </ul>
+</div>
+
+</footer>
+
 </body>
 </html>
+

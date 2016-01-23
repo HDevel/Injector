@@ -1,0 +1,6 @@
+﻿{
+    "pages": "./dev/pages/",
+    "blocks": "./dev/blocks/",
+    "build": "./public/",
+    "styleName": "style.css"
+}
