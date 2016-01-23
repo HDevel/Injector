@@ -270,6 +270,7 @@ header{
 }
 
 .dropbox{
+    border-top: 3px solid #303030;
     margin: 0 auto;
     left: 0;
     position: absolute;
@@ -283,17 +284,9 @@ header{
     transition: opacity 600ms, z-index 0ms 600ms;
 }
 
-.dropbox .del{
-    width: 988px;
-    height: 3px;
-    background-color: #303030;
-    padding: 0;
-    margin: 0;
-}
-
 .dropbox ul{
     padding: 10px 0;
-    width: 264px;
+    width: 261px;
     background-color: #dedede;
     list-style: none;
 }
@@ -322,26 +315,29 @@ header{
 }
 
 .brandbox{
+    border-top: 3px solid #303030;
     overflow: auto;
     text-align: left;
     margin: 0 auto;
-    left: 63px;
+    left: 48px;
     position: absolute;
     z-index: -10;
     opacity: 0;
-    width: 300px;
+    width: 312px;
     height: 400px;
     background-color: #fff;
     -webkit-transition: opacity 600ms, z-index 0ms 600ms;
     transition: opacity 600ms, z-index 0ms 600ms;
 }
 
-.brandbox .delim{
-    width: 300px;
-    height: 3px;
-    background-color: #303030;
-    padding: 0;
-    margin: 0;
+.brandbox::-webkit-scrollbar{
+    width: 5px;
+    height: 0;
+    border-radius: 10px;
+}
+
+.brandbox::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
 }
 
 .brandbox span{
@@ -393,7 +389,7 @@ header{
 .button.button_brandbox{
     float: left;
     height: 30px;
-    width: 40px;
+    width: 41px;
     color: #a9a9a9;
     font-size: 16px;
     line-height: 15px;
@@ -645,13 +641,13 @@ header{
 
 .links.links_brand{
     margin-right: 5px;
-    line-height: 25px;
+    line-height: 22px;
     width: 775px;
     display: inline-block;
 }
 
 .links.links_brand .src1{
-    padding-left: 10px;
+    padding-left: 15px;
     text-transform: uppercase;
     font-size: 16px;
     text-decoration: none;
@@ -660,6 +656,7 @@ header{
 
 .links.links_brand .src2{
     text-transform: capitalize;
+    font-size: 12px;
     margin: 0;
     float: right;
 }
@@ -730,9 +727,12 @@ header{
 .imghref.imghref_brand img{
     width: 100px;
     height: 110px;
-    text-decoration: none;
     margin-top: 10px;
     padding: 10px 20px;
+}
+
+.imghref.imghref_brand{
+    text-decoration: none;
 }
 
 .imghref.imghref_brand img:hover{

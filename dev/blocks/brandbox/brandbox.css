@@ -1,24 +1,27 @@
 .brandbox{
+    border-top: 3px solid #303030;
     overflow: auto;
     text-align: left;
     margin: 0 auto;
-    left: 63px;
+    left: 48px;
     position: absolute;
     z-index: -10;
     opacity: 0;
-    width: 300px;
+    width: 312px;
     height: 400px;
     background-color: #fff;
     -webkit-transition: opacity 600ms, z-index 0ms 600ms;
     transition: opacity 600ms, z-index 0ms 600ms;
 }
 
-.brandbox .delim{
-    width: 300px;
-    height: 3px;
-    background-color: #303030;
-    padding: 0;
-    margin: 0;
+.brandbox::-webkit-scrollbar{
+    width: 5px;
+    height: 0;
+    border-radius: 10px;
+}
+
+.brandbox::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
 }
 
 .brandbox span{
